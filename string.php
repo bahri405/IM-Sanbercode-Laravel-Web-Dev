@@ -61,7 +61,7 @@
         $string3 = "PHP is old but sexy!";
         echo "String: \"$string3\"  <br>"; 
         // OUTPUT : "PHP is old but awesome"
-        echo substr($string3 , 0 , 15 ) . "awesome";
+        echo str_replace('sexy', 'awesome', $string3);
 
     ?>
 </body>
